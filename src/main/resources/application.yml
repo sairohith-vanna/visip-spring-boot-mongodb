@@ -1,0 +1,12 @@
+spring:
+  data:
+    mongodb:
+      uri: ${DB_CONNECTION_STRING}
+      database: ${DATABASE}
+
+.env:
+  prefix:
+
+server:
+  servlet:
+    context-path: /api
